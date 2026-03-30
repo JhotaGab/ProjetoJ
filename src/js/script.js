@@ -63,3 +63,27 @@ console.log(valor1 === valor2);
 
 console.log(valor1 > 10 && valor2 < 10);
 console.log(valor1 > 10 || valor2 < 10);
+
+//=====================================================================
+
+// EXEMPLO 01
+let p=20
+let v=10
+let precoFinal=(p-v)
+console.log("O preço final com desconto é:",precoFinal);
+
+//=====================================================================
+
+//EXEMPLO 02
+let a = 20
+let b = 10
+let comparar=(a === 20 && b >= 10 )
+console.log(comparar)
+
+// ====================================================================
+
+//EXEMPLO 03
+const usuario_logado=20;
+const tempo_token=10;
+const transacao =(usuario_logado === 20 && tempo_token === 10)
+console.log(transacao)
