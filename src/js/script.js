@@ -153,3 +153,46 @@ switch(pratos){
 let usuario="dev";
 let logado= usuario == "dev" ? "Usuario Logado": "Usuario invalido";
 console.log(logado)
+
+
+// Estrutura de repetição
+
+for(let i=1; i<=5; i++){
+    console.log("valor",i)
+}
+
+const linguagens = ["Java", "Python","C#","PHP"];
+
+for(let i = 0; i < linguagens.length; i++){
+    console.log("Linguagem", i ,":", linguagens[i])
+} 
+
+//dar apelido para o nome / simplificar
+const tecnologias = ["JS","HTML","CSS"];
+
+for(let tec of tecnologias){
+    console.log("Estudando",tec)
+}
+
+// for com objeto
+const carros = {marca:"Volks", modelo: "Jetta", ano:2025};
+
+for(let dados in carros){
+    console.log(dados,":", carros[dados])
+}
+
+//while  - usamos quando não sabemos a quantidade de vezes
+let numero = 1;
+
+while(numero <=10){
+    console.log("contagem",numero)
+    numero++;
+}
+
+// declarando variavel indefinida
+let num;
+//enquanto o numero não for 0 ele continua rodando e registrando
+while(num !== "0"){
+    num = prompt("Digite um numero ou 0 para sair.")
+    console.log("Você digitou", num)
+}
